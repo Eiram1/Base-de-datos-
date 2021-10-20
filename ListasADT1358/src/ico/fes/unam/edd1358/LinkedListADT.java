@@ -5,6 +5,8 @@
  */
 package ico.fes.unam.edd1358;
 
+import ico.fes.edd.DoubleLinkedList;
+
 /**
  *
  * @author Armando
@@ -55,6 +57,7 @@ public class LinkedListADT {
             System.out.println(currNode.data + "-->");
             currNode =  currNode.next;
         }
-        System.out.println("");
+        System.out.println("");        
     }
+    
 }

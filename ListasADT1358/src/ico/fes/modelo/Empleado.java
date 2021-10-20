@@ -89,7 +89,7 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" + "id=" + id + "\n nombre=" + nombre + "\n paterno=" + paterno + "\n materno=" + materno + "\n sueldoBase=" + sueldoBase + "\n anioIngreso=" + anioIngreso + "\n horasExtra=" + horasExtra + "}\n--------------------\n";
+        return "Empleado{" + "\nid=" + id + "\n nombre=" + nombre + "\n paterno=" + paterno + "\n materno=" + materno + "\n sueldoBase=" + sueldoBase + "\n anioIngreso=" + anioIngreso + "\n horasExtra=" + horasExtra + "}\n--------------------\n";
     }
     
     
